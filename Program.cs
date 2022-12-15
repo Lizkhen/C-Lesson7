@@ -85,8 +85,9 @@ void Task52()
     int m = Convert.ToInt32(Console.ReadLine());
     int n = Convert.ToInt32(Console.ReadLine());
     int [,] array2d = new int [m,n];
+    Console.WriteLine("задайте массив построчно через запятую");
     for (int i = 0; i < m; i++)
-    {   
+    {  
         string []text = Console.ReadLine().Split(',', StringSplitOptions.RemoveEmptyEntries);
         for(int j = 0; j < n; j++)
         { 
